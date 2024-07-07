@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">PropuestaApp</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Presentación del Proyecto</string>
+    <string name="second_fragment_label">Suscripción</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="project_presentation_label">Presentación del Proyecto</string>
+    <string name="subscribe_label">Suscripción</string>
+    <string name="accept_terms_label">Terminos y Condiciones</string>
+    <string name="subscribe">Suscríbete</string>
+    <string name="Exit">Salir</string>
+    <string name="back">Volver</string>
+    <string name="project_description">
+        ¿Te gustaría conocer el inventario de tu almacén de una forma fácil, rápida y confiable?\n
+        ¡Este proyecto está pensado en ti!
+        \n\n
+        Hacer inventario será un proceso muy simple, diseñamos códigos QR que permiten identificar el producto
+        y en la APP crea espacios donde te pone el código y nombre de cada referencia, mientras que tu solo
+        tienes que poner la cantidad.\n
+        Lo mejor es que te cruza el conteo físico con las existencias del sistema, sacando el reporte de las
+        diferencias en tiempo real.
+        \n\n
+        Queremos que seas parte de esta gran familia. Te invitamos a registrar tu información y pronto estaremos en contacto.
+        \n\n
+        Un abrazo fraterno
+        \n\n
+    </string>
+    <string name="name">Nombre</string>
+    <string name="lastname">Apellido</string>
+    <string name="mail_address">Correo Electronico</string>
+    <string name="phone">Telefono</string>
+    <string name="third_fragment_label">Terminos y condiciones</string>
+    <string name="end">Finalizar</string>
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SecondFragment">
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cl_form"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp" tools:layout_editor_absoluteY="16dp" tools:layout_editor_absoluteX="-10dp">
+
+            <EditText
+                    android:id="@+id/edit_text_name"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:inputType="text"
+                    android:ems="10"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:hint="@string/name" android:autofillHints="name"/>
+
+            <EditText
+                    android:id="@+id/edit_text_lastname"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:inputType="text"
+                    android:ems="10"
+                    app:layout_constraintTop_toBottomOf="@id/edit_text_name"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginTop="16dp"
+                    android:hint="@string/lastname" android:autofillHints="lastname"/>
+
+            <EditText
+                    android:id="@+id/editTextTextEmailAddress"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:inputType="textEmailAddress"
+                    android:ems="10"
+                    app:layout_constraintTop_toBottomOf="@id/edit_text_lastname"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginTop="16dp"
+                    android:hint="@string/mail_address" android:autofillHints="emailAddress"/>
+
+            <EditText
+                    android:id="@+id/editTextPhone"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:inputType="phone"
+                    android:ems="10"
+                    app:layout_constraintTop_toBottomOf="@id/editTextTextEmailAddress"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:hint="@string/phone" android:autofillHints="phone"/>
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+                android:id="@+id/button_s_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/next"
+                app:layout_constraintTop_toBottomOf="@id/cl_form"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.9"/>
+
+        <Button
+                android:id="@+id/button_s_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/back"
+                app:layout_constraintTop_toBottomOf="@id/cl_form"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.1"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
